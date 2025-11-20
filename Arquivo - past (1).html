@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Portfólio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #fff;
+        }
+        header {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            padding: 8px 15px;
+            background: #222;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        nav a:hover { background: #444; }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .card {
+            background: #1a1a1a;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border: 1px solid #333;
+        }
+        .card h2 { margin-top: 0; }
+        .btn {
+            display: inline-block;
+            background: #0a84ff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .btn:hover { background: #349aff; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Home do Portfólio</h1>
+        <nav>
+            <a href="home.html">Página Inicial</a>
+            <a href="game.html">Mini Game</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor criativo, focado em projetos dinâmicos, interativos e divertidos para web.</p>
+        </div>
+        <div class="card">
+            <h2>Projetos</h2>
+            <p>Veja alguns projetos que criei para mostrar minhas habilidades e criatividade.</p>
+            <a href="game.html" class="btn">Acessar Mini Game</a>
+        </div>
+    </div>
+</body>
+</html>
